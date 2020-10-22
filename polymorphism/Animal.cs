@@ -9,4 +9,12 @@ namespace polymorphism
             Console.WriteLine("I MAKE NOISES!!!");
         }
     }
+
+    class Cat : Animal
+    {
+        public void MakeAnimalSound()
+        {
+            Console.WriteLine("Meow Meow");
+        }
+    }
 }
