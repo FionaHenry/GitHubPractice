@@ -11,6 +11,11 @@ namespace polymorphism
 
             Console.WriteLine("Int: " + addedSumOfInts);
             Console.WriteLine("Double: " + addedSumOfDoubles);
+
+            // Animal section
+
+            Animal animal = new Animal();
+            animal.MakeAnimalSound();
         }
 
         static int AddTwoNumbers(int x, int y)
