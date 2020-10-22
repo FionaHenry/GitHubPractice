@@ -15,7 +15,12 @@ namespace polymorphism
             // Animal section
 
             Animal animal = new Animal();
+            Animal cat = new Cat();
+            Animal llama = new Llama();
             animal.MakeAnimalSound();
+            cat.MakeAnimalSound();
+            llama.MakeAnimalSound();
+
         }
 
         static int AddTwoNumbers(int x, int y)

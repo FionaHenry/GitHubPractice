@@ -4,7 +4,7 @@ namespace polymorphism
 {
     class Animal
     {
-        public void MakeAnimalSound()
+        public virtual void MakeAnimalSound()
         {
             Console.WriteLine("I MAKE NOISES!!!");
         }
@@ -12,9 +12,17 @@ namespace polymorphism
 
     class Cat : Animal
     {
-        public void MakeAnimalSound()
+        public override void MakeAnimalSound()
         {
             Console.WriteLine("Meow Meow");
+        }
+    }
+
+    class Llama : Animal
+    {
+        public override void MakeAnimalSound()
+        {
+            Console.WriteLine("HONKKKKKKKKKKK");
         }
     }
 }
